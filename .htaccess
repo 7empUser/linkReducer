@@ -1,0 +1,2 @@
+DirectoryIndex ru/index.php
+ErrorDocument 404 /error404.php

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 10px;
+  margin: 0 20px 20px;
+  border-bottom: 1px solid #bbb;
+}
+
+nav.desktop {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.desktop > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.lang-div__current-lang {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.lang-div p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.lang-div {
+  position: relative;
+}
+
+.lang-div__list {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  min-width: 140px;
+  z-index: 1000;
+}
+
+.lang-div__list > div {
+  padding: 10px 16px;
+}
+
+.lang-div__list a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.lang-div__list > div:hover {
+  background: #f3f3f3;
+}
